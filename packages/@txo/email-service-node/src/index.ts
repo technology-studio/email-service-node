@@ -5,3 +5,4 @@
 **/
 
 export * from './Model/Types'
+export * from './Services'
