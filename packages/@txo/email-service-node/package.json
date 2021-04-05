@@ -30,6 +30,7 @@
     "email-templates": "^8.0.4"
   },
   "peerDependencies": {
+    "@txo-peer-dep/email-service-node": "^1.0.0",
     "aws-sdk": "^2.879.0"
   }
 }
