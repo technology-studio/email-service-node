@@ -26,10 +26,8 @@
     "build:watch:lib": "yarn tsc --watch",
     "prepare": "yarn build"
   },
-  "dependencies": {
-    "email-templates": "^8.0.4"
-  },
   "peerDependencies": {
+    "email-templates": "^8.0.4",
     "@txo-peer-dep/email-service-node": "^1.0.0",
     "aws-sdk": "^2.879.0"
   }
