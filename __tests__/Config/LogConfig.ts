@@ -26,7 +26,6 @@ configManager.update({
   defaultLevelForNodeEnvironmentMap: {
     production: Level.ERROR,
     development: Level.INFO,
-    test: Level.INFO,
   },
   levelOverride: {
     level: Level.DEBUG,
