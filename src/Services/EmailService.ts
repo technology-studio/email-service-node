@@ -5,23 +5,23 @@
  * @Copyright: Technology Studio
 **/
 
-import Email, { EmailOptions } from 'email-templates'
-import nodemailer from 'nodemailer'
-import AWS from 'aws-sdk'
+import type { EmailOptions } from 'email-templates'
+import Email from 'email-templates'
+import { createTransport } from 'nodemailer'
+import { config } from 'aws-sdk'
+import { configManager } from '@txo-peer-dep/email-service-node'
 
-import {
+import type {
   Service as EmailService,
 } from './Types/EmailServiceTypes'
-
-import { configManager } from '@txo-peer-dep/email-service-node'
 
 export const createService = (): EmailService => {
   const sendEmail = async <EMAIL_OPTIONS extends EmailOptions>(emailOptions: EMAIL_OPTIONS): Promise<void> => {
     // TODO: do we need this anymore ?
-    AWS.config.update({ region: configManager.config.awsSesRegion })
+    config.update({ region: configManager.config.awsSesRegion })
     // const ses = new AWS.SES({ apiVersion: emailConfig.AWS_SES_API_VERSION })
 
-    const transport = nodemailer.createTransport({
+    const transport = createTransport({
       host: `email-smtp.${configManager.config.awsSesRegion}.amazonaws.com`,
       port: 465,
       secure: true,
@@ -42,7 +42,9 @@ export const createService = (): EmailService => {
 
     return email
       .send(emailOptions)
+      // eslint-disable-next-line no-console
       .then(() => console.log(`email sent to: ${emailOptions.message?.to?.toString() ?? 'missing recipient email address'}`))
+      // eslint-disable-next-line no-console
       .catch(console.error)
   }
   return {
