@@ -39,7 +39,7 @@
   "peerDependencies": {
     "@txo-peer-dep/email-service-node": "^1.0.0",
     "aws-sdk": "^2.1152.0",
-    "email-templates": "^9.0.0"
+    "email-templates": "^10.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
