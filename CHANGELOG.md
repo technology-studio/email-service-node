@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/technology-studio/email-service-node/compare/v1.0.4...v1.0.5) (2022-11-07)
+
+
+### Bug fixes
+
+* move augmented type into peer dependency ([#47](https://github.com/technology-studio/email-service-node/issues/47)) ([1edad4d](https://github.com/technology-studio/email-service-node/commit/1edad4de3ec501cb65bf83bd92ee47b0b8bb07ec))
+
 ## [1.0.4](https://github.com/technology-studio/email-service-node/compare/v1.0.3...v1.0.4) (2022-10-19)
 
 
