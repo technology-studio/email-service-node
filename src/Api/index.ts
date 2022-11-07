@@ -1,8 +1,7 @@
 /**
  * @Author: Rostislav Simonik <rostislav.simonik@technologystudio.sk>
- * @Date: 2021-02-20T16:02:08+01:00
+ * @Date: 2022-11-07T21:11:10+01:00
  * @Copyright: Technology Studio
 **/
 
-export * from './Api/EmailAddressBuilder'
-export * from './Services'
+export * from './EmailAddressBuilder'
