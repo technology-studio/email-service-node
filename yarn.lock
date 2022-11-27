@@ -1439,10 +1439,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
-"@txo-peer-dep/email-service-node@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@txo-peer-dep/email-service-node/-/email-service-node-2.0.0.tgz#29081e811f07dadf786df0389719d122c9f9bb88"
-  integrity sha512-Qd3r4bv+KFIcfLCok+qoJ4rt9LANkVrwjtw98fOWelqseF8WQOYF5ZWjQm86I53jQW2BjiZETF2OmcwemLQUbA==
+"@txo-peer-dep/email-service-node@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@txo-peer-dep/email-service-node/-/email-service-node-2.1.0.tgz#a9ffcd172b9307d115ad09134ecca859d7d18aa5"
+  integrity sha512-i4NC4a2G6UEKMbcdlcrD/cB1Iv72/V36dSztu3amtWgpQ8bgpKh3p++vOQzqa9DoEtrFRktizEWRG8u58uxXyQ==
 
 "@txo-peer-dep/log@^4.0.0":
   version "4.0.0"
