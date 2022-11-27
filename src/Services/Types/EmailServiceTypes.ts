@@ -6,8 +6,8 @@
 **/
 
 import type {
-  EmailTemplate, GetEmailTemplateOptions,
+  EmailTemplateOptions,
 } from '@txo-peer-dep/email-service-node'
 export type Service = {
-  sendEmail: <EMAIL_TEMPLATE extends EmailTemplate>(template: EMAIL_TEMPLATE, emailOptions: GetEmailTemplateOptions<EMAIL_TEMPLATE>) => Promise<void>,
+  sendEmail: (emailOptions: EmailTemplateOptions) => Promise<void>,
 }
