@@ -34,10 +34,10 @@
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh"
   },
   "dependencies": {
-    "@txo-peer-dep/email-service-node": "^2.0.0"
+    "@txo-peer-dep/email-service-node": "^2.1.0"
   },
   "peerDependencies": {
-    "@txo-peer-dep/email-service-node": "^2.0.0",
+    "@txo-peer-dep/email-service-node": "^2.1.0",
     "aws-sdk": "^2.1261.0",
     "email-templates": "^10.0.1"
   },
