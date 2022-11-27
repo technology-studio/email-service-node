@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/technology-studio/email-service-node/compare/v1.0.5...v2.0.0) (2022-11-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* signature of  sendEmail has changed to use only implicit EmailTemplateOptions
+
+### Features
+
+* introduce implicit email template options ([#86](https://github.com/technology-studio/email-service-node/issues/86)) ([457e096](https://github.com/technology-studio/email-service-node/commit/457e096a8cc227b272084955eed7b1b70d44f067))
+
 ## [1.0.5](https://github.com/technology-studio/email-service-node/compare/v1.0.4...v1.0.5) (2022-11-07)
 
 
