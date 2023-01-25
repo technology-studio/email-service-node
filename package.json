@@ -38,7 +38,7 @@
   },
   "peerDependencies": {
     "@txo-peer-dep/email-service-node": "^2.1.0",
-    "aws-sdk": "^2.1301.0",
+    "aws-sdk": "^2.1302.0",
     "email-templates": "^10.0.1"
   },
   "devDependencies": {
@@ -52,7 +52,7 @@
     "@types/jest": "^29.4.0",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
-    "aws-sdk": "^2.1301.0",
+    "aws-sdk": "^2.1302.0",
     "commitizen": "^4.3.0",
     "concurrently": "^7.6.0",
     "email-templates": "^10.0.1",
