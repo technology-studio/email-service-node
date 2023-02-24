@@ -10,7 +10,13 @@ export class EmailAddressBuilder {
   list: (string | Address)[]
 
   static normalise = (value: string | Address | (string | Address)[] | undefined): (string | Address)[] => (
-    value ? typeof value === 'object' && Array.isArray(value) ? value : [value] : []
+    value != null
+      ? typeof value === 'object' && Array.isArray(value)
+        ? value
+        : value !== ''
+          ? [value]
+          : []
+      : []
   )
 
   static equals = (left: string | Address, right: string | Address): boolean => (
@@ -25,7 +31,8 @@ export class EmailAddressBuilder {
     const normalisedValue = EmailAddressBuilder.normalise(value)
 
     normalisedValue.forEach(newEmailAddress => {
-      if (!this.list.find(existingEmailAddress => EmailAddressBuilder.equals(existingEmailAddress, newEmailAddress))) {
+      const existingEmailAddress = this.list.find(existingEmailAddress => EmailAddressBuilder.equals(existingEmailAddress, newEmailAddress))
+      if (existingEmailAddress == null || existingEmailAddress === '') {
         this.list.push(newEmailAddress)
       }
     })

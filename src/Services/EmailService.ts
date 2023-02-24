@@ -40,10 +40,10 @@ export const createService = (): EmailService => {
       transport,
     })
 
-    return email
+    await email
       .send(emailOptions)
       // eslint-disable-next-line no-console
-      .then(() => console.log(`email sent to: ${emailOptions.message?.to?.toString() ?? 'missing recipient email address'}`))
+      .then(() => { console.log(`email sent to: ${emailOptions.message?.to?.toString() ?? 'missing recipient email address'}`) })
       // eslint-disable-next-line no-console
       .catch(console.error)
   }
