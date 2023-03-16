@@ -37,7 +37,7 @@
     "node": ">=18.0.0"
   },
   "peerDependencies": {
-    "@txo-peer-dep/email-service-node": "^2.1.0",
+    "@txo-peer-dep/email-service-node": "^2.1.1",
     "email-templates": "^11.0.3"
   },
   "devDependencies": {
