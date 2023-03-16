@@ -33,12 +33,11 @@
     "semantic-release": "semantic-release",
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh"
   },
-  "dependencies": {
-    "@txo-peer-dep/email-service-node": "^2.1.0"
+  "engines": {
+    "node": ">=18.0.0"
   },
   "peerDependencies": {
     "@txo-peer-dep/email-service-node": "^2.1.0",
-    "aws-sdk": "^2.1336.0",
     "email-templates": "^11.0.3"
   },
   "devDependencies": {
@@ -46,13 +45,13 @@
     "@commitlint/config-conventional": "^17.4.4",
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
+    "@txo-peer-dep/email-service-node": "^2.1.1",
     "@txo-peer-dep/log": "^4.0.0",
     "@txo/log-console": "^3.0.0",
     "@types/email-templates": "^10.0.1",
     "@types/jest": "^29.4.4",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
-    "aws-sdk": "^2.1336.0",
     "commitizen": "^4.3.0",
     "concurrently": "^7.6.0",
     "email-templates": "^11.0.3",
