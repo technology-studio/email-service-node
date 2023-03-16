@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/technology-studio/email-service-node/compare/v2.0.0...v2.0.1) (2023-03-16)
+
+
+### Bug fixes
+
+* sync with the recent boilerplate ([#277](https://github.com/technology-studio/email-service-node/issues/277)) ([0c6b580](https://github.com/technology-studio/email-service-node/commit/0c6b580aa1b88c836c72977b2919cc745a15080f))
+
 ## [2.0.0](https://github.com/technology-studio/email-service-node/compare/v1.0.5...v2.0.0) (2022-11-27)
 
 
