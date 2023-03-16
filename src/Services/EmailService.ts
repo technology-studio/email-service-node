@@ -8,7 +8,6 @@
 import type { EmailOptions } from 'email-templates'
 import Email from 'email-templates'
 import { createTransport } from 'nodemailer'
-import { config } from 'aws-sdk'
 import { configManager } from '@txo-peer-dep/email-service-node'
 
 import type {
@@ -17,10 +16,6 @@ import type {
 
 export const createService = (): EmailService => {
   const sendEmail = async <EMAIL_OPTIONS extends EmailOptions>(emailOptions: EMAIL_OPTIONS): Promise<void> => {
-    // TODO: do we need this anymore ?
-    config.update({ region: configManager.config.awsSesRegion })
-    // const ses = new AWS.SES({ apiVersion: emailConfig.AWS_SES_API_VERSION })
-
     const transport = createTransport({
       host: `email-smtp.${configManager.config.awsSesRegion}.amazonaws.com`,
       port: 465,
