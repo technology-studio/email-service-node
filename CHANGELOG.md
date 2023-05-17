@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/technology-studio/email-service-node/compare/v2.0.3...v2.0.4) (2023-05-17)
+
+
+### Bug fixes
+
+* **deps:** update dependency @txo-peer-dep/email-service-node to ^2.1.2 ([edbc51f](https://github.com/technology-studio/email-service-node/commit/edbc51f0931f996df74f12fc7116d63c92e75045))
+
 ## [2.0.3](https://github.com/technology-studio/email-service-node/compare/v2.0.2...v2.0.3) (2023-05-17)
 
 
