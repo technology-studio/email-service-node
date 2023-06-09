@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/technology-studio/email-service-node/compare/v2.0.4...v2.0.5) (2023-06-09)
+
+
+### Bug fixes
+
+* **deps:** update dependency email-templates to ^11.1.0 ([ffe3d21](https://github.com/technology-studio/email-service-node/commit/ffe3d21bfba43a492bb9b23925cbb57750ea2516))
+
 ## [2.0.4](https://github.com/technology-studio/email-service-node/compare/v2.0.3...v2.0.4) (2023-05-17)
 
 
