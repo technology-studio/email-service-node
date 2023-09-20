@@ -1,3 +1,10 @@
+## [2.0.7](https://github.com/technology-studio/email-service-node/compare/v2.0.6...v2.0.7) (2023-09-20)
+
+
+### Bug fixes
+
+* recreate yarn.lock ([#480](https://github.com/technology-studio/email-service-node/issues/480)) ([5547262](https://github.com/technology-studio/email-service-node/commit/554726204c6ec141c1792402c80c8d35f5d1025b))
+
 ## [2.0.6](https://github.com/technology-studio/email-service-node/compare/v2.0.5...v2.0.6) (2023-06-09)
 
 
