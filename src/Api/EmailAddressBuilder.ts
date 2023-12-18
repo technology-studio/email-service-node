@@ -27,7 +27,7 @@ export class EmailAddressBuilder {
     this.list = EmailAddressBuilder.normalise(initial)
   }
 
-  add (value: string | Address | (string | Address)[] | undefined): EmailAddressBuilder {
+  add (value: string | Address | (string | Address)[] | undefined): this {
     const normalisedValue = EmailAddressBuilder.normalise(value)
 
     normalisedValue.forEach(newEmailAddress => {
