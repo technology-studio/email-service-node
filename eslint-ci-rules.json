@@ -1,0 +1,8 @@
+[
+  "@typescript-eslint/no-magic-numbers",
+  "@stylistic/space-before-function-paren",
+  "@stylistic/arrow-parens",
+  "@typescript-eslint/no-unnecessary-type-parameters",
+  "eslint-comments/require-description",
+  "@typescript-eslint/no-base-to-string"
+]
