@@ -1436,10 +1436,10 @@
     "@tufjs/canonical-json" "2.0.0"
     minimatch "^9.0.3"
 
-"@txo-peer-dep/email-service-node@^2.1.5":
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/@txo-peer-dep/email-service-node/-/email-service-node-2.1.5.tgz#9b9a3701a0a812e5b6e30e4f0539ffad86b3a584"
-  integrity sha512-90FR236QtbExSreijd4K1ygNKZB2BJSs7LDa9damaH3muRSDIvDLFrynASrnOtAgkjH+/+VQrdoX+a3ihQTzgg==
+"@txo-peer-dep/email-service-node@^2.1.6":
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@txo-peer-dep/email-service-node/-/email-service-node-2.1.6.tgz#8c7778a17a162aa3b29802d028c01f2b6b91616a"
+  integrity sha512-S5XCUtgiTsot2VH8zTBJiuDq9odlJQdtAtiTc3INvdq80LMTOMybvEXIBFyokqUjdETX6N6wx457Xpp7QsEE8g==
 
 "@txo-peer-dep/log@^4.0.4":
   version "4.0.4"

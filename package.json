@@ -39,11 +39,11 @@
     "node": ">=18.0.0"
   },
   "peerDependencies": {
-    "@txo-peer-dep/email-service-node": "^2.1.5",
+    "@txo-peer-dep/email-service-node": "^2.1.6",
     "email-templates": "^12.0.2"
   },
   "devDependencies": {
-    "@txo-peer-dep/email-service-node": "^2.1.5",
+    "@txo-peer-dep/email-service-node": "^2.1.6",
     "@txo-peer-dep/log": "^4.0.4",
     "@txo/commitlint": "^1.0.22",
     "@txo/log-console": "^3.0.0",
